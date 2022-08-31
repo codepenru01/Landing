@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1220px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.grays {
+    color: #939393;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__inner + .navbar__inner {
+    margin-left: 25px;
+}
+
+.navbar__item-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263238;
+}
+
+.talk__btn {
+    border: 2px solid #263238;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    padding: 17px 57px;
+    transition: all 0.5s linear;
+}
+
+.talk__btn:hover {
+    background-color: #263238;
+    color: #ffffff;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.lampo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.lampo__text {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    margin-bottom: 61px;
+}
+
+.hero__btn {
+    background: #263238;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+    padding: 32px 117px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.hero__btn:hover {
+    background-color: #ffffff;
+    color: #263238;
+}
+
+.intro-section {
+    margin-bottom: 222px;
+}
+
+.intro__left {
+    margin-right: 18px;
+}
+
+.intro__heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 96px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+}
+
+.intro__left {
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.left__heading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+}
+
+.left__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-bottom: 20px;
+}
+
+.left__btn {
+    background: #263238;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 16px 63px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.left__btn:hover {
+    background-color: #ffffff;
+    color: #263238;
+}
+
+.card__right {
+    display: flex;
+    align-items: center;
+}
+
+.card__footer {
+    display: flex;
+    align-items: center;
+}
+
+.right__one {
+    margin-right: 18px;
+}
+
+.right__heading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+}
+
+.right__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-bottom: 10px;
+}
+
+.two__heading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+    margin-bottom: 35px;
+}
+
+.two__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-bottom: 50px;
+}
+
+.card__footer {
+    margin-top: 18px;
+}
+
+.footer__head {
+    margin-right: 20px;
+}
+
+.head__heading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+}
+
+.head__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-bottom: 10px;
+    max-width: 340px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 188px;
+}
+
+.about__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    max-width: 633px;
+    margin-bottom: 20px;
+}
+
+.about__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246;
+}
+
+.number__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+
+.pricing-section {
+    margin-bottom: 200px;
+}
+
+.pricing__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    text-align: center;
+}
+
+.pricing__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.self__img {
+    margin-bottom: 30px;
+}
+
+.live__img {
+    margin-bottom: 60px;
+}
+
+.live {
+    margin-bottom: 30px;
+}
+
+.card__heading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #263238;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    max-width: 600px;
+}
+
+.card__link {
+    background: #EEEEEE;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #263238;
+    padding: 0 18px;
+}
+
+.to {
+    margin-bottom: 30px;
+}
+
+.form__site {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.contact__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+
+#text::placeholder {
+    padding-left: 33px;
+}
+
+#text {
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    width: 450px;
+    height: 80px;
+    margin-right: 12px;
+}
+
+.contact__btn {
+    background: #263238;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 25px 82px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.contact__btn:hover {
+    background-color: #FFFFFF;
+    color: #263238;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.terms__link {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+}
